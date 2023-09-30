@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>C for core-machine</title>
+    <link rel="stylesheet" href="vdd.css">
+    
+    <style>
+            .ccode {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p mark {
+            background-color: #FFFF66;
+            padding: 2px;
+        }
+
+        h3 {
+            color: #444;
+            margin-top: 20px;
+        }
+</style>
+
+
+</head>
+<body>
+    <header>
+        <h1>C: The Language that Changed the World</h1>
+        <p>Sat Sept 30 2023</p>
+    </header>
+
+    <div class="container">
+        <p>C is a versatile and adaptable general-purpose programming language celebrated for its elegant expressions, contemporary control flow, and robust data structures, complemented by a wide array of operators. It occupies a unique space in the programming world, not overly high-level yet not excessively low-level, striking a harmonious balance. It possesses a remarkable ability to establish a direct connection with the very core of computing—the intricacies of processor architectures.</p>
+
+        <h2>World Before C</h2>
+        <p>Before C, Assembly language was the primary language, which was tied to specific hardware platforms and required a very good understanding of the underlying hardware. This hindered programmer productivity and limited software innovation. Programming was complex, time-consuming, and non-portable. However, with C, portability became possible with minimal modifications, making it suitable for system-level programming. C revolutionized programming by being portable, efficient, and expressive. Its direct connection with Unix (written in primarily in C & hardware platform using assembly) and its ability to interact effectively with processor architectures made it a powerful tool for software development.</p>
+
+        <h2>The need of a programming language</h2>
+        <p>The need for a programming language arose from the fact that Unix primarily used assembly language for low-level hardware interactions and optimizations. This proved to be challenging because each hardware platform required unique assembly code, which limited portability and complicated software development. As assembly language tied programmers to specific hardware, it became increasingly evident that there was a pressing need for a versatile programming language. Assembly language constrained both productivity and portability, which led to a demand for a new approach.</p>
+
+        <h2>Developement stage</h2>
+        <ul>
+            <li><strong>Origins at Bell Labs:</strong>C was developed at Bell Labs in the late 1960s and early 1970s, evolving from the language B.</li>
+            <li><strong>Language Development:</strong>Dennis Ritchie and colleagues worked on refining and expanding C, adding features like data types, control structures, and a more comprehensive standard library.</li>
+            <li><strong>Porting to Different Systems:</strong>C was designed to be portable, and the development team worked on porting the C compiler to different hardware platforms and operating systems.</li>
+            <li><strong>The C Programming Language Book:</strong>Dennis Ritchie and Brian Kernighan wrote "The C Programming Language," which became the authoritative reference for C programming and helped popularize the language.</li>
+            <li><strong>ANSI C Standardization:</strong>The American National Standards Institute (ANSI) standardized the C language in 1989, ensuring a consistent and portable C language across different platforms.</li>
+            <li><strong>C89/C90 and Later Standards: </strong>The International Organization for Standardization (ISO) adopted the ANSI C standard as ISO C, and subsequent versions of the C standard were released, including C99 and C11.</li>
+        </ul>
+
+        <h2>Why C?</h2>
+        <ul>
+            <li><strong>Manage Memory Directly:</strong>C provides manual memory management, which is crucial for system programming and embedded systems with limited memory resources.</li>
+            <li><strong>Interact with Hardware Directly:</strong>Programmers can access and control hardware devices like microprocessors and peripherals directly for system-level programming.</li>
+            <li>
+                <strong>
+                    Write Highly Efficient Code:
+                </strong>
+                As a compiled language, C code is converted into machine code, resulting in highly efficient and performant applications.
+            </li>
+            <li>
+                <strong>
+                    Write Portable Code:
+                </strong>
+                C compilers are available for a wide range of platforms and operating systems, allowing code to be easily ported without extensive modifications.
+            </li>
+        </ul>
+
+
+        <h2>World After C</h2>
+        <ul>
+            <li>
+                <strong>
+                    System Software:
+                </strong>
+                Including the development of GNU/Linux, Unix, and macOS, as it provides the low-level control necessary for efficient system programming.
+            </li>
+
+            <li>
+                <strong>
+                    Embedded Systems:   
+                </strong>
+                It became a popular choice for writing microcontrollers and routers due to its small footprint and direct hardware access capabilities.
+            </li>
+
+            <li>
+                <strong>
+                    Space Missions:
+                </strong>
+                Controlling spacecraft, processing data from scientific instruments, and communicating with ground control all use the C programming language because C allows interaction with the machine.
+            </li>
+
+            <li>
+                <strong>
+                    Compilers:
+                </strong>
+                Many well-known compilers were written using C. These compilers are essential for translating high-level code into machine code.
+            </li>
+
+            <li>
+                <strong>
+                    Databases:
+                </strong>
+                C was used for enabling efficient data storage and retrieval.
+            </li>
+
+            <li>
+                <strong>
+                    Web Browsers:
+                </strong>
+                C was used to write components that helped manage resources and render web pages efficiently.
+            </li>
+
+            <li>
+                <strong>
+                    Games:
+                </strong>
+                C has been used to create popular game engines, delivering high-performance gaming experiences.
+            </li>
+
+            <li>
+                <strong>
+                    Graphics Applications:
+                </strong>
+                Graphic manipulation tools utilize C for their core functionality, ensuring efficient image processing.
+            </li>
+
+            <li>
+                <strong>
+                    Scientific Applications:
+                </strong>
+                C is employed in scientific computing environments like MATLAB.
+            </li>
+        </ul>
+
+        <h2>Future of C:</h2>
+        <ul>
+            <li>
+                <strong>
+                    Embedded Systems and IoT: 
+                </strong>
+                C is expected to maintain its dominance in the world of embedded systems and the Internet of Things (IoT).
+            </li>
+
+            <li>
+                <strong>
+                    Legacy Code Maintenance:
+                </strong>
+                Many critical systems and software applications are written in C. As long as these systems are in use, there will be a demand for C programmers to maintain and update them. This is particularly relevant in industries like aerospace, automotive, and telecommunications.
+            </li>
+
+            <li>
+                <strong>System Programming:</strong>
+                C will remain a staple in system programming, especially for developing operating systems, device drivers, and low-level software components. Thanks to its control over hardware, it is indispensable in this domain.
+            </li>
+
+            <li>
+                <strong>Cross-Platform Development:</strong>
+                C's portability across different platforms and operating systems ensures its relevance in cross-platform development.
+            </li>
+        </ul>
+    </div>
+
+    <div class="ccode">
+        <h1>Excited to Learn</h1>
+        <h2>Books:</h2>
+        <ul>
+            <li><a href="https://stackoverflow.com/questions/562303/the-definitive-c-book-guide-and-list">A question on Stackoverflow for quality book on the C programming Language</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language">The C Programming Language by Brian W. Kernighan & Dennis M. Ritchie</a></li>
+            <li><a href="https://www.oreilly.com/library/view/head-first-c/9781449335649/">Head First C by David Griffiths & Dawn Griffiths</a></li>
+        </ul>
+
+        <h2>Online Courses:</h2>
+        <p><mark>I do not recommend online courses or advertising sites like YouTube for tutorials</mark></p>
+
+        <h2>Websites:</h2>
+        <ul>
+            <li><a href="https://en.cppreference.com/w/c/header">C Standard Library Header Files</a></li>
+        </ul>
+
+        <h3>See What People Are Doing:</h3>
+        <ul>
+            <li>Explore GitHub repositories to find open-source projects.</li>
+            <li>I would recommend taking a look at how Python was written in C.</li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
