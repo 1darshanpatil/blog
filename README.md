@@ -3,8 +3,8 @@
 
 ## Essay
 
-- [The 2008 Financial Crisis: A Comprehensive Review](2008fc.html)
-- [Meta's popular WA](rmrfmetasocial.html)
-- [Fly Too Close to the Sun](icarus.html)
-- [C: The Language that Changed the World](compera.html)
+- [The 2008 Financial Crisis: A Comprehensive Review](https://1darshanpatil.github.io/blog/2008fc.html)
+- [Meta's popular WA](https://1darshanpatil.github.io/blog/rmrfmetasocial.html)
+- [Fly Too Close to the Sun](https://1darshanpatil.github.io/blog/icarus.html)
+- [C: The Language that Changed the World](https://1darshanpatil.github.io/blog/compera.html)
 
