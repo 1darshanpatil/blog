@@ -123,12 +123,35 @@ h1 {
     display: inline-block; 
 }
 
-
 .hlink {
-    color: red;
-    text-decoration: none;  
+    position: relative;
+    color: #ff9a8c; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
 }
-  
+
+.hlink::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9affc3; 
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.hlink:hover {
+    color: #9affc3; 
+}
+
+.hlink:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+
 .footer {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
@@ -148,3 +171,26 @@ h1 {
     100% {transform: translateY(0);}
   }
   
+
+
+  .disclaimer {
+    padding: 30px;
+    margin: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    animation: slideUp 1s ease-in;
+}
+
+.disclaimer h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.disclaimer p {
+    font-size: 1.2em;
+    line-height: 1.7em;
+    text-shadow: 1px 1px 2px #000000;
+}
