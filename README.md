@@ -7,4 +7,5 @@
 - [Meta's popular WA](https://1darshanpatil.github.io/blog/rmrfmetasocial.html)
 - [Fly Too Close to the Sun](https://1darshanpatil.github.io/blog/icarus.html)
 - [C: The Language that Changed the World](https://1darshanpatil.github.io/blog/compera.html)
+- [Homo sapiens and the Pyramid's Peak](https://1darshanpatil.github.io/blog/sap.html)
 
